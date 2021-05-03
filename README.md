@@ -1,6 +1,6 @@
 # Тестовое задание
 
-Serverless-версии находятся в соответствующих папках (goServerless и т.д.). Идентификатор облака - b1geog7ofdtoj6e7fttt ; Доступ предоставлен ya-bkht@yandex.ru (без yandex.ru не работает). Именно serverless-версии и задеплоены (как Yandex Cloud Functions). Все из них выдают UNIX Timestamp.
+Serverless-версии находятся в соответствующих папках (goServerless и т.д.). Идентификатор облака - `b1geog7ofdtoj6e7fttt`. Доступ предоставлен ya-bkht@yandex.ru (без yandex.ru не работает). Именно serverless-версии и задеплоены (как Yandex Cloud Functions). Все из них выдают UNIX Timestamp.
 
 URL-ы (функции публично доступны):
 
