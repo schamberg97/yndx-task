@@ -8,7 +8,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: goodsmileduck/yandex-serverless-action@v1
       with:
-        token: ${{ secrets.TOKEN }}
+        token: ${{ secrets.YANDEXTOKEN }}
         bucket: ${{ secrets.BUCKET }}
         function_id: 'd4e51lt3fsj5veejuahh'
         runtime: 'golang116'
@@ -22,7 +22,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: goodsmileduck/yandex-serverless-action@v1
       with:
-        token: ${{ secrets.TOKEN }}
+        token: ${{ secrets.YANDEXTOKEN }}
         bucket: ${{ secrets.BUCKET }}
         function_id: 'd4e6q0a2bm7knun0pt0j'
         runtime: 'nodejs12'
@@ -36,7 +36,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: goodsmileduck/yandex-serverless-action@v1
       with:
-        token: ${{ secrets.TOKEN }}
+        token: ${{ secrets.YANDEXTOKEN }}
         bucket: ${{ secrets.BUCKET }}
         function_id: 'd4ei2u5osankn87ssgcd'
         runtime: 'bash'
