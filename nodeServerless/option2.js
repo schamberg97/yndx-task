@@ -3,8 +3,7 @@ const restana = require('restana')
 
 const app = restana()
 app.get('/*', (req, res) => {
-  //res.send((Math.floor(Date.now() / 1e3)).toString())
-  res.send('boo')
+  res.send((Math.floor(Date.now() / 1e3)).toString())
 })
 
 const handler = serverless(app);
