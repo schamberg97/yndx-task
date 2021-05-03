@@ -12,7 +12,8 @@ jobs:
         bucket: ${{ secrets.BUCKET }}
         function_id: 'd4e51lt3fsj5veejuahh'
         runtime: 'golang116'
-        memory: '128'
+        memory: '128'        
+        environment: DEBUG=False
         entrypoint: 'serverless.Handler'
         source: './goServerless'
         exclude: 'src/'
@@ -27,6 +28,7 @@ jobs:
         function_id: 'd4e6q0a2bm7knun0pt0j'
         runtime: 'nodejs12'
         memory: '128'
+        environment: DEBUG=False
         entrypoint: 'option2.handler'
         source: './nodeServerless'
         exclude: 'src/'
@@ -41,6 +43,7 @@ jobs:
         function_id: 'd4ei2u5osankn87ssgcd'
         runtime: 'bash'
         memory: '128'
+        environment: DEBUG=False
         entrypoint: 'serverless.sh'
         source: './bashServerless'
         exclude: 'src/'
